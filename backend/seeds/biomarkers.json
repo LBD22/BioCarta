@@ -1,0 +1,662 @@
+[
+  {
+    "code": "TC",
+    "name_ru": "Холестерин общий",
+    "name_en": "Total cholesterol",
+    "category": "lipids",
+    "unit_std": "mmol/L",
+    "risk_direction": "lower_is_better",
+    "is_whoop_supported": true,
+    "is_genetic": false
+  },
+  {
+    "code": "HDL",
+    "name_ru": "Холестерин-ЛПВП",
+    "name_en": "HDL cholesterol",
+    "category": "lipids",
+    "unit_std": "mmol/L",
+    "risk_direction": "higher_is_better",
+    "is_whoop_supported": true,
+    "is_genetic": false
+  },
+  {
+    "code": "LDL",
+    "name_ru": "Холестерин-ЛПНП",
+    "name_en": "LDL cholesterol",
+    "category": "lipids",
+    "unit_std": "mmol/L",
+    "risk_direction": "lower_is_better",
+    "is_whoop_supported": true,
+    "is_genetic": false
+  },
+  {
+    "code": "TG",
+    "name_ru": "Триглицериды",
+    "name_en": "Triglycerides",
+    "category": "lipids",
+    "unit_std": "mmol/L",
+    "risk_direction": "lower_is_better",
+    "is_whoop_supported": true,
+    "is_genetic": false
+  },
+  {
+    "code": "APOA",
+    "name_ru": "Аполипопротеин A1",
+    "name_en": "Apolipoprotein A1",
+    "category": "lipids",
+    "unit_std": "g/L",
+    "risk_direction": "higher_is_better",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "APOB",
+    "name_ru": "Аполипопротеин B",
+    "name_en": "Apolipoprotein B",
+    "category": "lipids",
+    "unit_std": "g/L",
+    "risk_direction": "lower_is_better",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "LP_A",
+    "name_ru": "Липопротеин (a)",
+    "name_en": "Lipoprotein (a)",
+    "category": "lipids",
+    "unit_std": "mg/dL",
+    "risk_direction": "lower_is_better",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "GLU",
+    "name_ru": "Глюкоза",
+    "name_en": "Glucose (fasting)",
+    "category": "glucose",
+    "unit_std": "mmol/L",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": true,
+    "is_genetic": false
+  },
+  {
+    "code": "A1C",
+    "name_ru": "Гликированный гемоглобин",
+    "name_en": "Hemoglobin A1c",
+    "category": "glucose",
+    "unit_std": "%",
+    "risk_direction": "lower_is_better",
+    "is_whoop_supported": true,
+    "is_genetic": false
+  },
+  {
+    "code": "INS",
+    "name_ru": "Инсулин",
+    "name_en": "Insulin (fasting)",
+    "category": "glucose",
+    "unit_std": "µU/mL",
+    "risk_direction": "lower_is_better",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "C_PEP",
+    "name_ru": "C-пептид",
+    "name_en": "C-peptide",
+    "category": "glucose",
+    "unit_std": "ng/mL",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "ALT",
+    "name_ru": "АЛТ",
+    "name_en": "ALT (Alanine aminotransferase)",
+    "category": "liver",
+    "unit_std": "U/L",
+    "risk_direction": "lower_is_better",
+    "is_whoop_supported": true,
+    "is_genetic": false
+  },
+  {
+    "code": "AST",
+    "name_ru": "АСТ",
+    "name_en": "AST (Aspartate aminotransferase)",
+    "category": "liver",
+    "unit_std": "U/L",
+    "risk_direction": "lower_is_better",
+    "is_whoop_supported": true,
+    "is_genetic": false
+  },
+  {
+    "code": "GGT",
+    "name_ru": "ГГТ",
+    "name_en": "GGT (Gamma-glutamyl transferase)",
+    "category": "liver",
+    "unit_std": "U/L",
+    "risk_direction": "lower_is_better",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "ALP",
+    "name_ru": "Щелочная фосфатаза",
+    "name_en": "Alkaline phosphatase",
+    "category": "liver",
+    "unit_std": "U/L",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "TBIL",
+    "name_ru": "Билирубин общий",
+    "name_en": "Total bilirubin",
+    "category": "liver",
+    "unit_std": "µmol/L",
+    "risk_direction": "lower_is_better",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "DBIL",
+    "name_ru": "Билирубин прямой",
+    "name_en": "Direct bilirubin",
+    "category": "liver",
+    "unit_std": "µmol/L",
+    "risk_direction": "lower_is_better",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "CRE",
+    "name_ru": "Креатинин",
+    "name_en": "Creatinine",
+    "category": "kidney",
+    "unit_std": "µmol/L",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": true,
+    "is_genetic": false
+  },
+  {
+    "code": "UREA",
+    "name_ru": "Мочевина",
+    "name_en": "Urea",
+    "category": "kidney",
+    "unit_std": "mmol/L",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "UA",
+    "name_ru": "Мочевая кислота",
+    "name_en": "Uric acid",
+    "category": "kidney",
+    "unit_std": "µmol/L",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": true,
+    "is_genetic": false
+  },
+  {
+    "code": "EGFR",
+    "name_ru": "СКФ (расчетная)",
+    "name_en": "eGFR (estimated)",
+    "category": "kidney",
+    "unit_std": "mL/min/1.73m²",
+    "risk_direction": "higher_is_better",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "CYS_C",
+    "name_ru": "Цистатин C",
+    "name_en": "Cystatin C",
+    "category": "kidney",
+    "unit_std": "mg/L",
+    "risk_direction": "lower_is_better",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "TSH",
+    "name_ru": "ТТГ",
+    "name_en": "TSH",
+    "category": "thyroid",
+    "unit_std": "mIU/L",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": true,
+    "is_genetic": false
+  },
+  {
+    "code": "FT4",
+    "name_ru": "Т4 свободный",
+    "name_en": "Free T4",
+    "category": "thyroid",
+    "unit_std": "pmol/L",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "FT3",
+    "name_ru": "Т3 свободный",
+    "name_en": "Free T3",
+    "category": "thyroid",
+    "unit_std": "pmol/L",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "TPO_AB",
+    "name_ru": "Антитела к ТПО",
+    "name_en": "Anti-TPO antibodies",
+    "category": "thyroid",
+    "unit_std": "IU/mL",
+    "risk_direction": "lower_is_better",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "VD",
+    "name_ru": "Витамин D (25-OH)",
+    "name_en": "Vitamin D (25-OH)",
+    "category": "vitamins",
+    "unit_std": "ng/mL",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": true,
+    "is_genetic": false
+  },
+  {
+    "code": "B12",
+    "name_ru": "Витамин B12",
+    "name_en": "Vitamin B12",
+    "category": "vitamins",
+    "unit_std": "pg/mL",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "FOL",
+    "name_ru": "Фолиевая кислота",
+    "name_en": "Folate",
+    "category": "vitamins",
+    "unit_std": "ng/mL",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "FER",
+    "name_ru": "Ферритин",
+    "name_en": "Ferritin",
+    "category": "iron",
+    "unit_std": "µg/L",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": true,
+    "is_genetic": false
+  },
+  {
+    "code": "FE",
+    "name_ru": "Железо сывороточное",
+    "name_en": "Serum iron",
+    "category": "iron",
+    "unit_std": "µmol/L",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "TIBC",
+    "name_ru": "ОЖСС",
+    "name_en": "TIBC",
+    "category": "iron",
+    "unit_std": "µmol/L",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "TSAT",
+    "name_ru": "Насыщение трансферрина",
+    "name_en": "Transferrin saturation",
+    "category": "iron",
+    "unit_std": "%",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "HGB",
+    "name_ru": "Гемоглобин",
+    "name_en": "Hemoglobin",
+    "category": "blood",
+    "unit_std": "g/L",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": true,
+    "is_genetic": false
+  },
+  {
+    "code": "RBC",
+    "name_ru": "Эритроциты",
+    "name_en": "Red blood cells",
+    "category": "blood",
+    "unit_std": "10^12/L",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "HCT",
+    "name_ru": "Гематокрит",
+    "name_en": "Hematocrit",
+    "category": "blood",
+    "unit_std": "%",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "MCV",
+    "name_ru": "Средний объем эритроцита",
+    "name_en": "Mean corpuscular volume",
+    "category": "blood",
+    "unit_std": "fL",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "WBC",
+    "name_ru": "Лейкоциты",
+    "name_en": "White blood cells",
+    "category": "blood",
+    "unit_std": "10^9/L",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "PLT",
+    "name_ru": "Тромбоциты",
+    "name_en": "Platelets",
+    "category": "blood",
+    "unit_std": "10^9/L",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "ESR",
+    "name_ru": "СОЭ",
+    "name_en": "ESR",
+    "category": "inflammation",
+    "unit_std": "mm/h",
+    "risk_direction": "lower_is_better",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "CRP",
+    "name_ru": "С-реактивный белок",
+    "name_en": "C-reactive protein",
+    "category": "inflammation",
+    "unit_std": "mg/L",
+    "risk_direction": "lower_is_better",
+    "is_whoop_supported": true,
+    "is_genetic": false
+  },
+  {
+    "code": "HS_CRP",
+    "name_ru": "вч-СРБ",
+    "name_en": "hs-CRP",
+    "category": "inflammation",
+    "unit_std": "mg/L",
+    "risk_direction": "lower_is_better",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "HOMA_IR",
+    "name_ru": "Индекс HOMA-IR",
+    "name_en": "HOMA-IR",
+    "category": "glucose",
+    "unit_std": "index",
+    "risk_direction": "lower_is_better",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "TESTO",
+    "name_ru": "Тестостерон общий",
+    "name_en": "Total testosterone",
+    "category": "hormones",
+    "unit_std": "nmol/L",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "FREE_TESTO",
+    "name_ru": "Тестостерон свободный",
+    "name_en": "Free testosterone",
+    "category": "hormones",
+    "unit_std": "pg/mL",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "SHBG",
+    "name_ru": "ГСПГ",
+    "name_en": "SHBG",
+    "category": "hormones",
+    "unit_std": "nmol/L",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "CORT",
+    "name_ru": "Кортизол",
+    "name_en": "Cortisol",
+    "category": "hormones",
+    "unit_std": "nmol/L",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "DHEA_S",
+    "name_ru": "ДГЭА-сульфат",
+    "name_en": "DHEA-S",
+    "category": "hormones",
+    "unit_std": "µg/dL",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "ESTRAD",
+    "name_ru": "Эстрадиол",
+    "name_en": "Estradiol",
+    "category": "hormones",
+    "unit_std": "pg/mL",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "PROG",
+    "name_ru": "Прогестерон",
+    "name_en": "Progesterone",
+    "category": "hormones",
+    "unit_std": "ng/mL",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "NA",
+    "name_ru": "Натрий",
+    "name_en": "Sodium",
+    "category": "electrolytes",
+    "unit_std": "mmol/L",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "K",
+    "name_ru": "Калий",
+    "name_en": "Potassium",
+    "category": "electrolytes",
+    "unit_std": "mmol/L",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "CL",
+    "name_ru": "Хлор",
+    "name_en": "Chloride",
+    "category": "electrolytes",
+    "unit_std": "mmol/L",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "CA",
+    "name_ru": "Кальций",
+    "name_en": "Calcium",
+    "category": "electrolytes",
+    "unit_std": "mmol/L",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "MG",
+    "name_ru": "Магний",
+    "name_en": "Magnesium",
+    "category": "electrolytes",
+    "unit_std": "mmol/L",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "HEIGHT",
+    "name_ru": "Рост",
+    "name_en": "Height",
+    "category": "anthropometry",
+    "unit_std": "cm",
+    "risk_direction": "neutral",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "WEIGHT",
+    "name_ru": "Вес",
+    "name_en": "Body weight",
+    "category": "anthropometry",
+    "unit_std": "kg",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": true,
+    "is_genetic": false
+  },
+  {
+    "code": "BMI",
+    "name_ru": "Индекс массы тела",
+    "name_en": "Body Mass Index (BMI)",
+    "category": "anthropometry",
+    "unit_std": "kg/m²",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": true,
+    "is_genetic": false
+  },
+  {
+    "code": "WAIST",
+    "name_ru": "Обхват талии",
+    "name_en": "Waist circumference",
+    "category": "anthropometry",
+    "unit_std": "cm",
+    "risk_direction": "lower_is_better",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "BFAT_PCT",
+    "name_ru": "Процент жира",
+    "name_en": "Body fat percentage",
+    "category": "body_composition",
+    "unit_std": "%",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": true,
+    "is_genetic": false
+  },
+  {
+    "code": "LBM",
+    "name_ru": "Безжировая масса",
+    "name_en": "Lean body mass",
+    "category": "body_composition",
+    "unit_std": "kg",
+    "risk_direction": "higher_is_better",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "SMM",
+    "name_ru": "Скелетная мышечная масса",
+    "name_en": "Skeletal muscle mass",
+    "category": "body_composition",
+    "unit_std": "kg",
+    "risk_direction": "higher_is_better",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "FFM",
+    "name_ru": "Жиросвободная масса",
+    "name_en": "Fat-free mass",
+    "category": "body_composition",
+    "unit_std": "kg",
+    "risk_direction": "higher_is_better",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "TBW_PCT",
+    "name_ru": "Общая вода в организме",
+    "name_en": "Total body water",
+    "category": "body_composition",
+    "unit_std": "%",
+    "risk_direction": "range_is_best",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "VFL",
+    "name_ru": "Висцеральный жир",
+    "name_en": "Visceral fat level",
+    "category": "body_composition",
+    "unit_std": "level",
+    "risk_direction": "lower_is_better",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  },
+  {
+    "code": "BMR",
+    "name_ru": "Базальный метаболизм",
+    "name_en": "Basal metabolic rate",
+    "category": "body_composition",
+    "unit_std": "kcal/day",
+    "risk_direction": "neutral",
+    "is_whoop_supported": false,
+    "is_genetic": false
+  }
+]

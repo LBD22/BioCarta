@@ -1,0 +1,236 @@
+[
+  {
+    "code": "TC",
+    "sex": "any",
+    "age_min": 18,
+    "age_max": 200,
+    "low": 3.0,
+    "high": 5.0,
+    "source": "generic"
+  },
+  {
+    "code": "HDL",
+    "sex": "m",
+    "age_min": 18,
+    "age_max": 200,
+    "low": 1.0,
+    "high": 2.5,
+    "source": "generic"
+  },
+  {
+    "code": "HDL",
+    "sex": "f",
+    "age_min": 18,
+    "age_max": 200,
+    "low": 1.2,
+    "high": 2.7,
+    "source": "generic"
+  },
+  {
+    "code": "LDL",
+    "sex": "any",
+    "age_min": 18,
+    "age_max": 200,
+    "low": 0.0,
+    "high": 3.0,
+    "source": "generic"
+  },
+  {
+    "code": "TG",
+    "sex": "any",
+    "age_min": 18,
+    "age_max": 200,
+    "low": 0.0,
+    "high": 1.7,
+    "source": "generic"
+  },
+  {
+    "code": "FER",
+    "sex": "m",
+    "age_min": 18,
+    "age_max": 200,
+    "low": 30,
+    "high": 400,
+    "source": "generic"
+  },
+  {
+    "code": "FER",
+    "sex": "f",
+    "age_min": 18,
+    "age_max": 200,
+    "low": 15,
+    "high": 150,
+    "source": "generic"
+  },
+  {
+    "code": "VD",
+    "sex": "any",
+    "age_min": 18,
+    "age_max": 200,
+    "low": 30,
+    "high": 50,
+    "source": "generic"
+  },
+  {
+    "code": "A1C",
+    "sex": "any",
+    "age_min": 18,
+    "age_max": 200,
+    "low": 4.0,
+    "high": 5.6,
+    "source": "generic"
+  },
+  {
+    "code": "GLU",
+    "sex": "any",
+    "age_min": 18,
+    "age_max": 200,
+    "low": 3.9,
+    "high": 5.5,
+    "source": "generic"
+  },
+  {
+    "code": "INS",
+    "sex": "any",
+    "age_min": 18,
+    "age_max": 200,
+    "low": 2,
+    "high": 25,
+    "source": "generic"
+  },
+  {
+    "code": "CRP",
+    "sex": "any",
+    "age_min": 18,
+    "age_max": 200,
+    "low": 0.0,
+    "high": 3.0,
+    "source": "generic"
+  },
+  {
+    "code": "TSH",
+    "sex": "any",
+    "age_min": 18,
+    "age_max": 200,
+    "low": 0.4,
+    "high": 4.0,
+    "source": "generic"
+  },
+  {
+    "code": "TESTO",
+    "sex": "m",
+    "age_min": 18,
+    "age_max": 200,
+    "low": 8,
+    "high": 30,
+    "source": "generic"
+  },
+  {
+    "code": "FT",
+    "sex": "m",
+    "age_min": 18,
+    "age_max": 200,
+    "low": 0.2,
+    "high": 0.62,
+    "source": "generic"
+  },
+  {
+    "code": "NA",
+    "sex": "any",
+    "age_min": 18,
+    "age_max": 200,
+    "low": 135,
+    "high": 145,
+    "source": "generic"
+  },
+  {
+    "code": "K",
+    "sex": "any",
+    "age_min": 18,
+    "age_max": 200,
+    "low": 3.5,
+    "high": 5.1,
+    "source": "generic"
+  },
+  {
+    "code": "CA",
+    "sex": "any",
+    "age_min": 18,
+    "age_max": 200,
+    "low": 2.1,
+    "high": 2.6,
+    "source": "generic"
+  },
+  {
+    "code": "MG",
+    "sex": "any",
+    "age_min": 18,
+    "age_max": 200,
+    "low": 0.66,
+    "high": 1.07,
+    "source": "generic"
+  },
+  {
+    "code": "CL",
+    "sex": "any",
+    "age_min": 18,
+    "age_max": 200,
+    "low": 98,
+    "high": 107,
+    "source": "generic"
+  },
+  {
+    "code": "BMI",
+    "sex": "any",
+    "age_min": 18,
+    "age_max": 200,
+    "low": 18.5,
+    "high": 25.0,
+    "source": "WHO generic"
+  },
+  {
+    "code": "BFAT_PCT",
+    "sex": "m",
+    "age_min": 18,
+    "age_max": 200,
+    "low": 8.0,
+    "high": 20.0,
+    "source": "generic"
+  },
+  {
+    "code": "BFAT_PCT",
+    "sex": "f",
+    "age_min": 18,
+    "age_max": 200,
+    "low": 18.0,
+    "high": 30.0,
+    "source": "generic"
+  },
+  {
+    "code": "TBW_PCT",
+    "sex": "m",
+    "age_min": 18,
+    "age_max": 200,
+    "low": 50.0,
+    "high": 65.0,
+    "source": "generic"
+  },
+  {
+    "code": "TBW_PCT",
+    "sex": "f",
+    "age_min": 18,
+    "age_max": 200,
+    "low": 45.0,
+    "high": 60.0,
+    "source": "generic"
+  },
+  {
+    "code": "VFL",
+    "sex": "any",
+    "age_min": 18,
+    "age_max": 200,
+    "low": 1.0,
+    "high": 9.0,
+    "source": "device-generic"
+  }
+]

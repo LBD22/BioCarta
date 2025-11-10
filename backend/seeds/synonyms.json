@@ -1,0 +1,317 @@
+[
+  {
+    "code": "TC",
+    "ru": [
+      "Холестерин общий",
+      "Общий холестерин",
+      "Cholesterol total"
+    ],
+    "en": [
+      "Total cholesterol",
+      "Cholesterol total",
+      "TC"
+    ]
+  },
+  {
+    "code": "HDL",
+    "ru": [
+      "Холестерин-ЛПВП",
+      "ЛПВП",
+      "HDL"
+    ],
+    "en": [
+      "HDL cholesterol",
+      "HDL"
+    ]
+  },
+  {
+    "code": "LDL",
+    "ru": [
+      "Холестерин-ЛПНП",
+      "ЛПНП",
+      "LDL"
+    ],
+    "en": [
+      "LDL cholesterol",
+      "LDL"
+    ]
+  },
+  {
+    "code": "TG",
+    "ru": [
+      "Триглицериды",
+      "TG",
+      "Triglycerides"
+    ],
+    "en": [
+      "Triglycerides",
+      "TG"
+    ]
+  },
+  {
+    "code": "FER",
+    "ru": [
+      "Ферритин"
+    ],
+    "en": [
+      "Ferritin"
+    ]
+  },
+  {
+    "code": "VD",
+    "ru": [
+      "Витамин D",
+      "25(OH)D",
+      "Витамин 25(ОН) D"
+    ],
+    "en": [
+      "Vitamin D",
+      "25-OH Vitamin D",
+      "Vitamin D (25-OH)"
+    ]
+  },
+  {
+    "code": "A1C",
+    "ru": [
+      "Гликированный гемоглобин",
+      "HbA1c",
+      "А1с"
+    ],
+    "en": [
+      "Hemoglobin A1c",
+      "HbA1c",
+      "A1c"
+    ]
+  },
+  {
+    "code": "GLU",
+    "ru": [
+      "Глюкоза",
+      "Сахар"
+    ],
+    "en": [
+      "Glucose",
+      "Fasting glucose"
+    ]
+  },
+  {
+    "code": "INS",
+    "ru": [
+      "Инсулин"
+    ],
+    "en": [
+      "Insulin"
+    ]
+  },
+  {
+    "code": "CRP",
+    "ru": [
+      "С-реактивный белок",
+      "hs-CRP"
+    ],
+    "en": [
+      "C-reactive protein",
+      "hs-CRP"
+    ]
+  },
+  {
+    "code": "TSH",
+    "ru": [
+      "ТТГ",
+      "Тиреотропный гормон"
+    ],
+    "en": [
+      "TSH",
+      "Thyroid-stimulating hormone"
+    ]
+  },
+  {
+    "code": "TESTO",
+    "ru": [
+      "Тестостерон"
+    ],
+    "en": [
+      "Testosterone total"
+    ]
+  },
+  {
+    "code": "FT",
+    "ru": [
+      "Тестостерон свободный"
+    ],
+    "en": [
+      "Free testosterone"
+    ]
+  },
+  {
+    "code": "NA",
+    "ru": [
+      "Натрий"
+    ],
+    "en": [
+      "Sodium"
+    ]
+  },
+  {
+    "code": "K",
+    "ru": [
+      "Калий"
+    ],
+    "en": [
+      "Potassium"
+    ]
+  },
+  {
+    "code": "CA",
+    "ru": [
+      "Кальций"
+    ],
+    "en": [
+      "Calcium (total)"
+    ]
+  },
+  {
+    "code": "MG",
+    "ru": [
+      "Магний"
+    ],
+    "en": [
+      "Magnesium"
+    ]
+  },
+  {
+    "code": "CL",
+    "ru": [
+      "Хлор",
+      "Хлориды"
+    ],
+    "en": [
+      "Chloride"
+    ]
+  },
+  {
+    "code": "HEIGHT",
+    "ru": [
+      "Рост",
+      "Height"
+    ],
+    "en": [
+      "Height",
+      "Stature"
+    ]
+  },
+  {
+    "code": "WEIGHT",
+    "ru": [
+      "Масса тела",
+      "Вес",
+      "Body weight"
+    ],
+    "en": [
+      "Body weight",
+      "Weight"
+    ]
+  },
+  {
+    "code": "BMI",
+    "ru": [
+      "Индекс массы тела",
+      "ИМТ",
+      "BMI"
+    ],
+    "en": [
+      "Body Mass Index",
+      "BMI"
+    ]
+  },
+  {
+    "code": "BFAT_PCT",
+    "ru": [
+      "Процент жира",
+      "Жировая масса %",
+      "Жир %",
+      "Жировая доля",
+      "Body fat %"
+    ],
+    "en": [
+      "Body fat %",
+      "Body fat percentage",
+      "% body fat"
+    ]
+  },
+  {
+    "code": "LBM",
+    "ru": [
+      "Безжировая масса",
+      "LBM",
+      "FFM (без жира)"
+    ],
+    "en": [
+      "Lean body mass",
+      "LBM"
+    ]
+  },
+  {
+    "code": "SMM",
+    "ru": [
+      "Скелетная мышечная масса",
+      "SMM",
+      "Мышечная масса"
+    ],
+    "en": [
+      "Skeletal muscle mass",
+      "SMM",
+      "Muscle mass"
+    ]
+  },
+  {
+    "code": "FFM",
+    "ru": [
+      "Жиросвободная масса",
+      "FFM"
+    ],
+    "en": [
+      "Fat free mass",
+      "FFM"
+    ]
+  },
+  {
+    "code": "BMR",
+    "ru": [
+      "Основной обмен",
+      "BMR",
+      "Базальный метаболизм"
+    ],
+    "en": [
+      "Basal metabolic rate",
+      "BMR"
+    ]
+  },
+  {
+    "code": "VFL",
+    "ru": [
+      "Висцеральный жир",
+      "Уровень висцерального жира",
+      "VFL"
+    ],
+    "en": [
+      "Visceral fat",
+      "Visceral fat level",
+      "VFL"
+    ]
+  },
+  {
+    "code": "TBW_PCT",
+    "ru": [
+      "Общая вода",
+      "Общая вода %",
+      "TBW",
+      "Вода в организме"
+    ],
+    "en": [
+      "Total body water",
+      "TBW %",
+      "Body water %"
+    ]
+  }
+]

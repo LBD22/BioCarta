@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: biocarta
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: |
+      pip install --upgrade pip
+      pip install -r app/backend/requirements.txt
+      cd app/frontend && pnpm install && pnpm build && cd ../..
+      rm -rf app/static/*
+      cp -r app/frontend/dist/* app/static/
+    startCommand: cd app && python -m uvicorn backend.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: DATABASE_URL
+        value: sqlite:///./app.db
