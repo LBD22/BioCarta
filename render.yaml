@@ -6,11 +6,11 @@ services:
     plan: free
     buildCommand: |
       pip install --upgrade pip
-      pip install -r app/backend/requirements.txt
-      cd app/frontend && pnpm install && pnpm build && cd ../..
-      rm -rf app/static/*
-      cp -r app/frontend/dist/* app/static/
-    startCommand: cd app && python -m uvicorn backend.main:app --host 0.0.0.0 --port $PORT
+      pip install -r backend/requirements.txt
+      cd frontend && pnpm install && pnpm build && cd ..
+      rm -rf static/*
+      cp -r frontend/dist/* static/
+    startCommand: python -m uvicorn backend.main:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.0
