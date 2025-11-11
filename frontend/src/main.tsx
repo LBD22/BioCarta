@@ -244,8 +244,7 @@ function LoginPage({ onLogin }: { onLogin: (token: string) => void }) {
       <div style={styles.loginBg} />
       <div style={styles.loginCard} className="animate-fade-in">
         <div style={styles.logoContainer}>
-          <img src="/logo.png" alt="BioCarta" style={styles.logo} />
-          <h1 className="gradient-text" style={{ fontSize: '32px', marginBottom: '8px', fontWeight: '800' }}>
+          <h1 className="gradient-text" style={{ fontSize: '42px', marginBottom: '8px', fontWeight: '800', letterSpacing: '-0.02em' }}>
             BioCarta
           </h1>
           <p style={{ color: '#6b7280', fontSize: '15px', textAlign: 'center' }}>
@@ -365,7 +364,7 @@ function Dashboard() {
       {/* Biomarkers */}
       {biomarkers.length === 0 ? (
         <div className="card" style={{ textAlign: 'center', padding: '60px' }}>
-          <div style={{ fontSize: '48px', marginBottom: '16px' }}>📊</div>
+          <div style={{ fontSize: '48px', marginBottom: '16px', opacity: 0.3 }}>🩺</div>
           <h3 style={{ marginBottom: '8px', color: '#374151' }}>Нет данных</h3>
           <p style={{ color: '#6b7280' }}>Загрузите файлы с анализами на вкладке "Загрузка"</p>
         </div>
@@ -588,8 +587,7 @@ function App() {
     <div style={styles.appContainer}>
       <nav style={styles.navbar} className="no-print">
         <div style={styles.navBrand}>
-          <img src="/logo.png" alt="BioCarta" style={styles.navLogo} />
-          <span>BioCarta</span>
+          <span style={{ fontSize: '20px', fontWeight: '700', letterSpacing: '-0.01em' }}>BioCarta</span>
         </div>
         <div style={styles.navButtons}>
           <button

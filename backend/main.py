@@ -19,5 +19,7 @@ app.include_router(integrations.router)
 app.include_router(genetics.router)
 app.include_router(bioage.router)
 
-if os.path.isdir("static"):
-    app.mount("/", StaticFiles(directory="static", html=True), name="static")
+# Mount static files after API routes to avoid conflicts
+static_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "static")
+if os.path.isdir(static_dir):
+    app.mount("/", StaticFiles(directory=static_dir, html=True), name="static")
