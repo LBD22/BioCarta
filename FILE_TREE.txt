@@ -1,0 +1,86 @@
+.
+├── CHANGELOG.md
+├── DEPLOYMENT_STATUS.md
+├── DESIGN_UPDATE.md
+├── Dockerfile
+├── FILE_TREE.txt
+├── FIXES_SUMMARY.md
+├── GITHUB_PUSH_SUCCESS.md
+├── NEW_FEATURES.md
+├── SYSTEM_DOCUMENTATION.md
+├── app.db
+├── backend
+│   ├── api
+│   │   ├── auth.py
+│   │   ├── bioage.py
+│   │   ├── biomarkers.py
+│   │   ├── dashboard.py
+│   │   ├── export.py
+│   │   ├── exports.py
+│   │   ├── genetics.py
+│   │   ├── integrations.py
+│   │   ├── measurements.py
+│   │   ├── timeline.py
+│   │   └── uploads.py
+│   ├── core
+│   │   ├── config.py
+│   │   ├── db.py
+│   │   └── security.py
+│   ├── domain
+│   │   ├── apple_health.py
+│   │   ├── bioage.py
+│   │   ├── composites.py
+│   │   ├── exporting.py
+│   │   ├── genetics_parser.py
+│   │   ├── normalize.py
+│   │   ├── oura_integration.py
+│   │   ├── parsing.py
+│   │   └── whoop_integration.py
+│   ├── main.py
+│   ├── migrate_db.py
+│   ├── models
+│   │   ├── biomarker.py
+│   │   ├── genetic_variant.py
+│   │   ├── measurement.py
+│   │   ├── parse_candidate.py
+│   │   ├── reference.py
+│   │   ├── synonym.py
+│   │   ├── unitconv.py
+│   │   ├── upload.py
+│   │   └── user.py
+│   ├── requirements.txt
+│   ├── schemas
+│   │   ├── auth.py
+│   │   ├── biomarker.py
+│   │   ├── measurement.py
+│   │   └── upload.py
+│   └── seeds
+│       ├── biomarkers.json
+│       ├── load_all.py
+│       ├── references.json
+│       └── synonyms.json
+├── frontend
+│   ├── index.html
+│   ├── package.json
+│   ├── pnpm-lock.yaml
+│   ├── src
+│   │   ├── bioage_page.tsx
+│   │   ├── biomarker_detail.tsx
+│   │   ├── genetics_page.tsx
+│   │   ├── global.css
+│   │   ├── history_component.tsx
+│   │   ├── integrations_page.tsx
+│   │   └── main.tsx
+│   └── vite.config.ts
+├── logo_option_1.png
+├── logo_option_2.png
+├── logo_option_3.png
+├── render.yaml
+└── static
+    ├── assets
+    │   ├── index-C-fL-ePs.js
+    │   └── index-DUjdw8AW.css
+    ├── index.html
+    └── logo.png
+
+11 directories, 72 files
