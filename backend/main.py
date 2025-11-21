@@ -33,6 +33,25 @@ app.include_router(integrations.router)
 app.include_router(genetics.router)
 app.include_router(bioage.router)
 
+# Debug endpoint to check seed data
+@app.get("/debug/seed-status")
+def get_seed_status():
+    from .core.db import SessionLocal
+    from .models.biomarker import Biomarker, BiomarkerSynonym, ReferenceRange
+    db = SessionLocal()
+    try:
+        biomarkers_count = db.query(Biomarker).count()
+        synonyms_count = db.query(BiomarkerSynonym).count()
+        references_count = db.query(ReferenceRange).count()
+        return {
+            "biomarkers": biomarkers_count,
+            "synonyms": synonyms_count,
+            "reference_ranges": references_count,
+            "database_url": settings.database_url[:30] + "..." if len(settings.database_url) > 30 else settings.database_url
+        }
+    finally:
+        db.close()
+
 # Mount static files after API routes to avoid conflicts
 static_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "static")
 if os.path.isdir(static_dir):
