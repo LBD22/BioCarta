@@ -26,6 +26,30 @@ async def create_upload(f: UploadFile = File(...), db: Session = Depends(get_db)
     if up.file_type in ("csv","xlsx","xls","pdf","zip","xml"):
         auto_parse_file(db, up, path)
         up.status = "parsed"; db.commit()
+        
+        # Auto-approve candidates with high confidence matches
+        candidates = db.query(ParseCandidate).filter(ParseCandidate.upload_id == up.id).all()
+        for pc in candidates:
+            bm = resolve_biomarker(db, pc.original_name)
+            if bm and pc.value_raw:
+                try:
+                    val = float(pc.value_raw)
+                    unit = pc.unit_raw or bm.unit_std
+                    val_std = convert_unit(db, val, unit, bm.unit_std)
+                    m = Measurement(
+                        user_id=user.id, biomarker_id=bm.id, value_std=val_std, unit_std=bm.unit_std,
+                        original_name=pc.original_name, original_unit=unit, original_value=str(val),
+                        source_type="lab_excel" if up.file_type in ("csv","xlsx","xls") else "lab_pdf",
+                        source_id=up.id, sample_datetime=pc.sample_datetime_raw or ""
+                    )
+                    db.add(m)
+                except (ValueError, TypeError):
+                    pass
+        db.commit()
+        
+        # Auto-calculate composite biomarkers
+        auto_save_composites(db, user)
+        
     return up
 
 @router.get("", response_model=list[UploadOut])

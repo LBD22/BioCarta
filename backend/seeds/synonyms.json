@@ -1,5 +1,102 @@
 [
   {
+    "code": "HGB",
+    "ru": [
+      "Гемоглобин",
+      "Hemoglobin",
+      "Hb"
+    ],
+    "en": [
+      "Hemoglobin",
+      "Hb",
+      "HGB"
+    ]
+  },
+  {
+    "code": "RBC",
+    "ru": [
+      "Эритроциты",
+      "Красные кровяные тельца"
+    ],
+    "en": [
+      "Red blood cells",
+      "RBC",
+      "Erythrocytes"
+    ]
+  },
+  {
+    "code": "WBC",
+    "ru": [
+      "Лейкоциты",
+      "Белые кровяные тельца"
+    ],
+    "en": [
+      "White blood cells",
+      "WBC",
+      "Leukocytes"
+    ]
+  },
+  {
+    "code": "PLT",
+    "ru": [
+      "Тромбоциты",
+      "Platelets"
+    ],
+    "en": [
+      "Platelets",
+      "PLT"
+    ]
+  },
+  {
+    "code": "ALT",
+    "ru": [
+      "АЛТ",
+      "Аланинаминотрансфераза",
+      "ALT"
+    ],
+    "en": [
+      "ALT",
+      "Alanine aminotransferase",
+      "SGPT"
+    ]
+  },
+  {
+    "code": "AST",
+    "ru": [
+      "АСТ",
+      "Аспартатаминотрансфераза",
+      "AST"
+    ],
+    "en": [
+      "AST",
+      "Aspartate aminotransferase",
+      "SGOT"
+    ]
+  },
+  {
+    "code": "CREAT",
+    "ru": [
+      "Креатинин",
+      "Creatinine"
+    ],
+    "en": [
+      "Creatinine",
+      "CREAT"
+    ]
+  },
+  {
+    "code": "UREA",
+    "ru": [
+      "Мочевина",
+      "Urea"
+    ],
+    "en": [
+      "Urea",
+      "Blood urea nitrogen",
+      "BUN"
+    ]
+  },
+  {
     "code": "TC",
     "ru": [
       "Холестерин общий",
