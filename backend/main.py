@@ -6,6 +6,9 @@ from .core.config import settings
 from .core.db import Base, engine
 from .api import auth, biomarkers, measurements, uploads, dashboard, export, timeline, integrations, genetics, bioage
 
+# Import all models before creating tables
+from . import models
+
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

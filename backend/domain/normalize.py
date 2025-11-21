@@ -86,8 +86,8 @@ def create_biomarker_from_name(db: Session, name: str) -> Biomarker:
         name_en=name,
         name_ru=name,
         category='other',  # Default category
-        unit='',  # Will be filled from first measurement
-        description='Auto-created from uploaded data'
+        unit_std='',  # Will be filled from first measurement
+        risk_direction='neutral'
     )
     
     db.add(new_biomarker)
@@ -98,7 +98,7 @@ def create_biomarker_from_name(db: Session, name: str) -> Biomarker:
     synonym = BiomarkerSynonym(
         biomarker_id=new_biomarker.id,
         text=name,
-        lang='en'
+        language='en'
     )
     db.add(synonym)
     db.commit()

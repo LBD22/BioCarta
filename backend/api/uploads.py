@@ -1,5 +1,8 @@
 import os
+import logging
 from fastapi import APIRouter, Depends, UploadFile, File, HTTPException
+
+logger = logging.getLogger(__name__)
 from sqlalchemy.orm import Session
 from ..core.security import get_db, get_current_user
 from ..core.config import settings
@@ -48,7 +51,10 @@ async def create_upload(f: UploadFile = File(...), db: Session = Depends(get_db)
         db.commit()
         
         # Auto-calculate composite biomarkers
-        auto_save_composites(db, user)
+        try:
+            auto_save_composites(db, user)
+        except Exception as e:
+            logger.warning(f"Failed to calculate composite biomarkers: {e}")
         
     return up
 
