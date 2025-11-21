@@ -37,7 +37,9 @@ app.include_router(bioage.router)
 @app.get("/debug/seed-status")
 def get_seed_status():
     from .core.db import SessionLocal
-    from .models.biomarker import Biomarker, BiomarkerSynonym, ReferenceRange
+    from .models.biomarker import Biomarker
+    from .models.synonym import BiomarkerSynonym
+    from .models.reference import ReferenceRange
     db = SessionLocal()
     try:
         biomarkers_count = db.query(Biomarker).count()
